@@ -107,7 +107,7 @@ export default function Sell() {
                   <p className="mt-1 text-sm text-stone">Ihre Angaben werden selbstverständlich streng vertraulich behandelt.</p>
                 </div>
                 <div className="sm:col-span-2">
-                  <TextField label="Adresse der Immobilie" name="address" autoComplete="street-address" maxLength={160} value={values.address} onChange={set("address")} error={errors.address} placeholder="Prinzregentenstraße 22, München" />
+                  <TextField label="Adresse der Immobilie" name="address" autoComplete="street-address" maxLength={160} value={values.address} onChange={set("address")} error={errors.address} placeholder="Straße, Hausnummer, Ort" />
                 </div>
                 <SelectField label="Objektart" name="property_type" value={values.property_type} onChange={set("property_type")}>
                   {TYPES.map((t) => <option key={t} value={t}>{typeLabel(t)}</option>)}

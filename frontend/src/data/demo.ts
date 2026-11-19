@@ -43,7 +43,7 @@ export const DEMO_AGENTS: Agent[] = [
     "id": 1,
     "name": "Charlotte von Arnim",
     "title": "Geschäftsführende Maklerin",
-    "phone": "+49 89 5550 1810",
+    "phone": "Ihre Telefonnummer hier",
     "email": "charlotte@skyline.example",
     "photo": "/images/agent-1.jpg",
     "city": "München",
@@ -54,7 +54,7 @@ export const DEMO_AGENTS: Agent[] = [
     "id": 2,
     "name": "Maximilian Hartmann",
     "title": "Spezialist für Luxusimmobilien",
-    "phone": "+49 40 5550 1440",
+    "phone": "Ihre Telefonnummer hier",
     "email": "maximilian@skyline.example",
     "photo": "/images/agent-2.jpg",
     "city": "Hamburg",
@@ -65,7 +65,7 @@ export const DEMO_AGENTS: Agent[] = [
     "id": 3,
     "name": "Sophie Lindner",
     "title": "Senior-Maklerin",
-    "phone": "+49 30 5550 1270",
+    "phone": "Ihre Telefonnummer hier",
     "email": "sophie@skyline.example",
     "photo": "/images/agent-3.jpg",
     "city": "Berlin",
@@ -76,7 +76,7 @@ export const DEMO_AGENTS: Agent[] = [
     "id": 4,
     "name": "Jonas Weber",
     "title": "Käuferberater",
-    "phone": "+49 69 5550 1630",
+    "phone": "Ihre Telefonnummer hier",
     "email": "jonas@skyline.example",
     "photo": "/images/agent-4.jpg",
     "city": "Frankfurt",
@@ -89,7 +89,7 @@ export const DEMO_LISTINGS: Listing[] = [
   {
     "id": 1,
     "title": "Villa am Isarhochufer",
-    "address": "Montgelasstraße 18",
+    "address": "Musterstraße 1",
     "city": "München",
     "type": "villa",
     "price": 6450000,
@@ -119,7 +119,7 @@ export const DEMO_LISTINGS: Listing[] = [
   {
     "id": 2,
     "title": "Haus Elbhang",
-    "address": "Strandweg 42",
+    "address": "Musterstraße 2",
     "city": "Hamburg",
     "type": "house",
     "price": 3950000,
@@ -149,7 +149,7 @@ export const DEMO_LISTINGS: Listing[] = [
   {
     "id": 3,
     "title": "Residenz Herzogpark",
-    "address": "Pienzenauerstraße 5",
+    "address": "Musterstraße 3",
     "city": "München",
     "type": "villa",
     "price": 8900000,
@@ -179,7 +179,7 @@ export const DEMO_LISTINGS: Listing[] = [
   {
     "id": 4,
     "title": "Stadtvilla Grunewald",
-    "address": "Koenigsallee 21",
+    "address": "Musterstraße 4",
     "city": "Berlin",
     "type": "house",
     "price": 2850000,
@@ -209,7 +209,7 @@ export const DEMO_LISTINGS: Listing[] = [
   {
     "id": 5,
     "title": "Loft-Stadthaus Prenzlauer Berg",
-    "address": "Kastanienallee 90",
+    "address": "Musterstraße 5",
     "city": "Berlin",
     "type": "townhouse",
     "price": 1390000,
@@ -239,7 +239,7 @@ export const DEMO_LISTINGS: Listing[] = [
   {
     "id": 6,
     "title": "Villa Westend",
-    "address": "Bockenheimer Landstraße 14",
+    "address": "Musterstraße 6",
     "city": "Frankfurt",
     "type": "house",
     "price": 3490000,
@@ -269,7 +269,7 @@ export const DEMO_LISTINGS: Listing[] = [
   {
     "id": 7,
     "title": "Gartenhaus Solln",
-    "address": "Wolfratshauser Straße 330",
+    "address": "Musterstraße 7",
     "city": "München",
     "type": "house",
     "price": 2450000,
@@ -299,7 +299,7 @@ export const DEMO_LISTINGS: Listing[] = [
   {
     "id": 8,
     "title": "Villa Rheinblick",
-    "address": "Kaiserswerther Straße 8",
+    "address": "Musterstraße 8",
     "city": "Düsseldorf",
     "type": "villa",
     "price": 5200000,
@@ -329,7 +329,7 @@ export const DEMO_LISTINGS: Listing[] = [
   {
     "id": 9,
     "title": "Landhaus Sachsenhausen",
-    "address": "Schweizer Straße 57",
+    "address": "Musterstraße 9",
     "city": "Frankfurt",
     "type": "house",
     "price": 1650000,
@@ -359,7 +359,7 @@ export const DEMO_LISTINGS: Listing[] = [
   {
     "id": 10,
     "title": "Skyline Penthouse 42",
-    "address": "Taunusanlage 12",
+    "address": "Musterstraße 10",
     "city": "Frankfurt",
     "type": "apartment",
     "price": 3250000,
@@ -389,7 +389,7 @@ export const DEMO_LISTINGS: Listing[] = [
   {
     "id": 11,
     "title": "Gartenwohnung Harvestehude",
-    "address": "Heilwigstraße 30",
+    "address": "Musterstraße 11",
     "city": "Hamburg",
     "type": "apartment",
     "price": 1180000,
@@ -419,7 +419,7 @@ export const DEMO_LISTINGS: Listing[] = [
   {
     "id": 12,
     "title": "Stadthaus Oberkassel",
-    "address": "Luegallee 64",
+    "address": "Musterstraße 12",
     "city": "Düsseldorf",
     "type": "townhouse",
     "price": 1490000,
@@ -452,7 +452,7 @@ export const CITIES = ["Berlin", "Düsseldorf", "Frankfurt", "Hamburg", "Münche
 export const TYPES: PropertyType[] = ["house", "villa", "apartment", "townhouse"];
 
 export const CONTACT = {
-  phone: "+49 89 5550 1000",
+  phone: "Ihre Telefonnummer hier",
   email: "concierge@skyline.example",
-  address: "Maximilianstraße 12, 80539 München",
+  address: "Ihre Adresse hier",
 };

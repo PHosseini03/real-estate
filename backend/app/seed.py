@@ -27,16 +27,16 @@ CREATE TABLE IF NOT EXISTS valuations (
 """
 
 AGENTS = [
-    (1, "Charlotte von Arnim", "Geschäftsführende Maklerin", "+49 89 5550 1810", "charlotte@skyline.example",
+    (1, "Charlotte von Arnim", "Geschäftsführende Maklerin", "Ihre Telefonnummer hier", "charlotte@skyline.example",
      "/images/agent-1.jpg", "München", 214,
      "Seit fünfzehn Jahren vermittelt sie Villen und Stadtpalais in Bogenhausen, Grünwald und am Herzogpark."),
-    (2, "Maximilian Hartmann", "Spezialist für Luxusimmobilien", "+49 40 5550 1440", "maximilian@skyline.example",
+    (2, "Maximilian Hartmann", "Spezialist für Luxusimmobilien", "Ihre Telefonnummer hier", "maximilian@skyline.example",
      "/images/agent-2.jpg", "Hamburg", 168,
      "Vom Architekten zum Makler – mit einem feinen Gespür für moderne Häuser an Elbe und Rhein."),
-    (3, "Sophie Lindner", "Senior-Maklerin", "+49 30 5550 1270", "sophie@skyline.example",
+    (3, "Sophie Lindner", "Senior-Maklerin", "Ihre Telefonnummer hier", "sophie@skyline.example",
      "/images/agent-3.jpg", "Berlin", 139,
      "Begleitet Familien und Erstkäufer mit Ruhe und Klarheit auf dem Weg ins eigene Zuhause in Berlin."),
-    (4, "Jonas Weber", "Käuferberater", "+49 69 5550 1630", "jonas@skyline.example",
+    (4, "Jonas Weber", "Käuferberater", "Ihre Telefonnummer hier", "jonas@skyline.example",
      "/images/agent-4.jpg", "Frankfurt", 97,
      "Bekannt für souveräne Verhandlungsführung und gelassene Begleitung bei jedem Angebot."),
 ]
@@ -50,18 +50,18 @@ TYPE_PHRASES = {"house": "ein Haus", "villa": "eine Villa", "apartment": "eine W
 # id, title, address, city, type, price (EUR), bedrooms, bathrooms, living area (m², stored in `sqft`),
 # year, image no., agent, days ago, featured
 LISTINGS = [
-    (1, "Villa am Isarhochufer", "Montgelasstraße 18", "München", "villa", 6450000, 5, 4.0, 480, 2021, 1, 1, 3, 1),
-    (2, "Haus Elbhang", "Strandweg 42", "Hamburg", "house", 3950000, 4, 3.0, 320, 2019, 2, 2, 9, 1),
-    (3, "Residenz Herzogpark", "Pienzenauerstraße 5", "München", "villa", 8900000, 6, 5.0, 610, 2022, 3, 1, 14, 1),
-    (4, "Stadtvilla Grunewald", "Koenigsallee 21", "Berlin", "house", 2850000, 4, 3.0, 290, 2018, 4, 3, 2, 0),
-    (5, "Loft-Stadthaus Prenzlauer Berg", "Kastanienallee 90", "Berlin", "townhouse", 1390000, 3, 2.0, 185, 2020, 5, 3, 21, 0),
-    (6, "Villa Westend", "Bockenheimer Landstraße 14", "Frankfurt", "house", 3490000, 5, 4.0, 410, 1998, 6, 4, 6, 1),
-    (7, "Gartenhaus Solln", "Wolfratshauser Straße 330", "München", "house", 2450000, 4, 3.0, 260, 2015, 7, 1, 30, 0),
-    (8, "Villa Rheinblick", "Kaiserswerther Straße 8", "Düsseldorf", "villa", 5200000, 5, 5.0, 520, 2023, 8, 2, 1, 1),
-    (9, "Landhaus Sachsenhausen", "Schweizer Straße 57", "Frankfurt", "house", 1650000, 4, 2.0, 230, 2008, 9, 4, 12, 0),
-    (10, "Skyline Penthouse 42", "Taunusanlage 12", "Frankfurt", "apartment", 3250000, 3, 3.0, 240, 2020, 1, 4, 5, 0),
-    (11, "Gartenwohnung Harvestehude", "Heilwigstraße 30", "Hamburg", "apartment", 1180000, 2, 2.0, 125, 2012, 6, 2, 18, 0),
-    (12, "Stadthaus Oberkassel", "Luegallee 64", "Düsseldorf", "townhouse", 1490000, 3, 2.0, 175, 2017, 2, 2, 25, 0),
+    (1, "Villa am Isarhochufer", "Musterstraße 1", "München", "villa", 6450000, 5, 4.0, 480, 2021, 1, 1, 3, 1),
+    (2, "Haus Elbhang", "Musterstraße 2", "Hamburg", "house", 3950000, 4, 3.0, 320, 2019, 2, 2, 9, 1),
+    (3, "Residenz Herzogpark", "Musterstraße 3", "München", "villa", 8900000, 6, 5.0, 610, 2022, 3, 1, 14, 1),
+    (4, "Stadtvilla Grunewald", "Musterstraße 4", "Berlin", "house", 2850000, 4, 3.0, 290, 2018, 4, 3, 2, 0),
+    (5, "Loft-Stadthaus Prenzlauer Berg", "Musterstraße 5", "Berlin", "townhouse", 1390000, 3, 2.0, 185, 2020, 5, 3, 21, 0),
+    (6, "Villa Westend", "Musterstraße 6", "Frankfurt", "house", 3490000, 5, 4.0, 410, 1998, 6, 4, 6, 1),
+    (7, "Gartenhaus Solln", "Musterstraße 7", "München", "house", 2450000, 4, 3.0, 260, 2015, 7, 1, 30, 0),
+    (8, "Villa Rheinblick", "Musterstraße 8", "Düsseldorf", "villa", 5200000, 5, 5.0, 520, 2023, 8, 2, 1, 1),
+    (9, "Landhaus Sachsenhausen", "Musterstraße 9", "Frankfurt", "house", 1650000, 4, 2.0, 230, 2008, 9, 4, 12, 0),
+    (10, "Skyline Penthouse 42", "Musterstraße 10", "Frankfurt", "apartment", 3250000, 3, 3.0, 240, 2020, 1, 4, 5, 0),
+    (11, "Gartenwohnung Harvestehude", "Musterstraße 11", "Hamburg", "apartment", 1180000, 2, 2.0, 125, 2012, 6, 2, 18, 0),
+    (12, "Stadthaus Oberkassel", "Musterstraße 12", "Düsseldorf", "townhouse", 1490000, 3, 2.0, 175, 2017, 2, 2, 25, 0),
 ]
 
 
